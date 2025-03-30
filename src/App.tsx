@@ -16,7 +16,7 @@ function App() {
 					color: 'darkorange',
 				}}
 			>
-				<h1>Happy Birthday!!!</h1>
+				<h2>Happy Birthday!!!</h2>
 			</div>
 			<div
 				style={
