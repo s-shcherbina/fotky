@@ -1,7 +1,4 @@
-// import { items } from '../common/moks'
 import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Pagination, A11y, EffectCube, Autoplay, EffectFade } from 'swiper'
-// import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper-bundle.css'
 import { useState } from 'react'
 import { A11y, Autoplay, EffectFade, Pagination } from 'swiper/modules'
@@ -21,7 +18,18 @@ function App() {
 			>
 				<h1>Happy Birthday!!!</h1>
 			</div>
-			<div style={{ padding: '0 2vw 2vw 2vw' }}>
+			<div
+				style={
+					{
+						// margin: '0 auto',
+						// paddingLeft: '2vw',
+						// border: 'solid',
+						// display: 'flex',
+						// justifyContent: 'center',
+						// 	alignItems: 'center',
+					}
+				}
+			>
 				<Swiper
 					modules={[EffectFade, Pagination, A11y, Autoplay]}
 					autoplay={{
@@ -30,19 +38,13 @@ function App() {
 					}}
 					speed={2000}
 					slidesPerView={1}
+					// slidesPerView={'auto'}
 					pagination={{ clickable: true }}
 					loop={true}
 					effect={'fade'}
 					fadeEffect={{
 						crossFade: true,
 					}}
-					// effect={'cube'}
-					// cubeEffect={{
-					//   shadow: true,
-					//   slideShadows: true,
-					//   shadowOffset: 20,
-					//   shadowScale: 0.94,
-					// }}
 				>
 					{items.map((item: { image: string }, index: number) => (
 						<SwiperSlide
@@ -52,9 +54,11 @@ function App() {
 						>
 							<div
 								style={{
-									background: `url(${item.image}) center/cover`,
+									backgroundImage: `url(${item.image})`,
+									backgroundPosition: 'top center',
+									backgroundRepeat: 'no-repeat',
 									height: '85vh',
-									width: '96vw',
+									width: 'auto !important',
 								}}
 							></div>
 							{/* <Stack
