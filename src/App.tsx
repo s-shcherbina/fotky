@@ -19,16 +19,15 @@ function App() {
 				<h1>Happy Birthday!!!</h1>
 			</div>
 			<div
-				style={
-					{
-						// margin: '0 auto',
-						// paddingLeft: '2vw',
-						// border: 'solid',
-						// display: 'flex',
-						// justifyContent: 'center',
-						// 	alignItems: 'center',
-					}
-				}
+				style={{
+					height: '110vh',
+					// margin: '0 auto',
+					// paddingLeft: '2vw',
+					// border: 'solid',
+					// display: 'flex',
+					// justifyContent: 'center',
+					// 	alignItems: 'center',
+				}}
 			>
 				<Swiper
 					modules={[EffectFade, Pagination, A11y, Autoplay]}
@@ -57,9 +56,10 @@ function App() {
 									backgroundImage: `url(${item.image})`,
 									backgroundPosition: 'top center',
 									backgroundRepeat: 'no-repeat',
-									backgroundSize: 'auto !important',
-									height: '100vh',
-									width: 'auto !important',
+									// backgroundSize: 'auto !important',
+									height: '120vh',
+									// maxWidth: '1100px',
+									// maxWidth: 'auto !impotant',
 									// height: 'auto !impotant',
 								}}
 							></div>
