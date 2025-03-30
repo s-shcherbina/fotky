@@ -1,13 +1,207 @@
-import imgOne from '../assets/photo_1.jpg'
-import imgTwo from '../assets/photo_2.jpg'
-import imgThree from '../assets/photo_3.jpg'
-import imgFour from '../assets/photo_4.jpg'
+import img1 from '../assets/photo_1.jpg'
+import img2 from '../assets/photo_2.jpg'
+import img3 from '../assets/photo_3.jpg'
+import img4 from '../assets/photo_4.jpg'
 import img5 from '../assets/photo_5.jpg'
+import img6 from '../assets/photo_6.jpg'
+import img7 from '../assets/photo_7.jpg'
+import img8 from '../assets/photo_8.jpg'
+import img9 from '../assets/photo_9.jpg'
+import img10 from '../assets/photo_10.jpg'
+import img11 from '../assets/photo_11.jpg'
+import img12 from '../assets/photo_12.jpg'
+import img13 from '../assets/photo_13.jpg'
+import img14 from '../assets/photo_14.jpg'
+import img15 from '../assets/photo_15.jpg'
+import img16 from '../assets/photo_16.jpg'
+import img17 from '../assets/photo_17.jpg'
+import img18 from '../assets/photo_18.jpg'
+import img19 from '../assets/photo_19.jpg'
+import img20 from '../assets/photo_20.jpg'
+import img21 from '../assets/photo_21.jpg'
+import img22 from '../assets/photo_22.jpg'
+import img23 from '../assets/photo_23.jpg'
+import img24 from '../assets/photo_24.jpg'
+import img25 from '../assets/photo_25.jpg'
+import img26 from '../assets/photo_26.jpg'
+import img27 from '../assets/photo_27.jpg'
+import img28 from '../assets/photo_28.jpg'
+import img29 from '../assets/photo_29.jpg'
+import img30 from '../assets/photo_30.jpg'
+import img31 from '../assets/photo_31.jpg'
+import img32 from '../assets/photo_32.jpg'
+import img33 from '../assets/photo_33.jpg'
+import img34 from '../assets/photo_34.jpg'
+import img35 from '../assets/photo_35.jpg'
+import img36 from '../assets/photo_36.jpg'
+import img37 from '../assets/photo_37.jpg'
+import img38 from '../assets/photo_38.jpg'
+import img39 from '../assets/photo_39.jpg'
+import img40 from '../assets/photo_40.jpg'
+import img41 from '../assets/photo_41.jpg'
+import img42 from '../assets/photo_42.jpg'
+import img43 from '../assets/photo_43.jpg'
+import img44 from '../assets/photo_44.jpg'
+import img45 from '../assets/photo_45.jpg'
+import img46 from '../assets/photo_46.jpg'
+import img47 from '../assets/photo_47.jpg'
+import img48 from '../assets/photo_48.jpg'
+import img49 from '../assets/photo_49.jpg'
+import img50 from '../assets/photo_50.jpg'
+import img51 from '../assets/photo_51.jpg'
+import img52 from '../assets/photo_52.jpg'
+import img53 from '../assets/photo_53.jpg'
+import img54 from '../assets/photo_54.jpg'
+import img55 from '../assets/photo_55.jpg'
+import img56 from '../assets/photo_56.jpg'
+import img57 from '../assets/photo_57.jpg'
+import img58 from '../assets/photo_58.jpg'
+import img59 from '../assets/photo_59.jpg'
+import img60 from '../assets/photo_60.jpg'
+import img61 from '../assets/photo_61.jpg'
+import img62 from '../assets/photo_62.jpg'
+import img63 from '../assets/photo_63.jpg'
+import img64 from '../assets/photo_64.jpg'
+import img65 from '../assets/photo_65.jpg'
+import img66 from '../assets/photo_66.jpg'
+import img67 from '../assets/photo_67.jpg'
+import img68 from '../assets/photo_68.jpg'
+import img69 from '../assets/photo_69.jpg'
+import img70 from '../assets/photo_70.jpg'
+import img71 from '../assets/photo_71.jpg'
+import img72 from '../assets/photo_72.jpg'
+import img73 from '../assets/photo_73.jpg'
+import img74 from '../assets/photo_74.jpg'
+import img75 from '../assets/photo_75.jpg'
+import img76 from '../assets/photo_76.jpg'
+import img77 from '../assets/photo_77.jpg'
+import img78 from '../assets/photo_78.jpg'
+import img79 from '../assets/photo_79.jpg'
+import img80 from '../assets/photo_80.jpg'
+import img81 from '../assets/photo_81.jpg'
+import img82 from '../assets/photo_82.jpg'
+import img83 from '../assets/photo_83.jpg'
+import img84 from '../assets/photo_84.jpg'
+import img85 from '../assets/photo_85.jpg'
+import img86 from '../assets/photo_86.jpg'
+import img87 from '../assets/photo_87.jpg'
+import img88 from '../assets/photo_88.jpg'
+import img89 from '../assets/photo_89.jpg'
+import img90 from '../assets/photo_90.jpg'
+import img91 from '../assets/photo_91.jpg'
+import img92 from '../assets/photo_92.jpg'
+import img93 from '../assets/photo_93.jpg'
+import img94 from '../assets/photo_94.jpg'
+import img95 from '../assets/photo_95.jpg'
+import img96 from '../assets/photo_96.jpg'
+import img97 from '../assets/photo_97.jpg'
+import img98 from '../assets/photo_98.jpg'
+import img99 from '../assets/photo_99.jpg'
+import img100 from '../assets/photo_100.jpg'
+import img101 from '../assets/photo_101.jpg'
+import img102 from '../assets/photo_102.jpg'
 
 export const items = [
-	{ image: imgOne },
-	{ image: imgTwo },
-	{ image: imgThree },
-	{ image: imgFour },
+	{ image: img1 },
+	{ image: img2 },
+	{ image: img3 },
+	{ image: img4 },
 	{ image: img5 },
+	{ image: img6 },
+	{ image: img7 },
+	{ image: img8 },
+	{ image: img9 },
+	{ image: img10 },
+	{ image: img11 },
+	{ image: img12 },
+	{ image: img13 },
+	{ image: img14 },
+	{ image: img15 },
+	{ image: img16 },
+	{ image: img17 },
+	{ image: img18 },
+	{ image: img19 },
+	{ image: img20 },
+	{ image: img21 },
+	{ image: img22 },
+	{ image: img23 },
+	{ image: img24 },
+	{ image: img25 },
+	{ image: img26 },
+	{ image: img27 },
+	{ image: img28 },
+	{ image: img29 },
+	{ image: img30 },
+	{ image: img31 },
+	{ image: img32 },
+	{ image: img33 },
+	{ image: img34 },
+	{ image: img35 },
+	{ image: img36 },
+	{ image: img37 },
+	{ image: img38 },
+	{ image: img39 },
+	{ image: img40 },
+	{ image: img41 },
+	{ image: img42 },
+	{ image: img43 },
+	{ image: img44 },
+	{ image: img45 },
+	{ image: img46 },
+	{ image: img47 },
+	{ image: img48 },
+	{ image: img49 },
+	{ image: img50 },
+	{ image: img51 },
+	{ image: img52 },
+	{ image: img53 },
+	{ image: img54 },
+	{ image: img55 },
+	{ image: img56 },
+	{ image: img57 },
+	{ image: img58 },
+	{ image: img59 },
+	{ image: img60 },
+	{ image: img61 },
+	{ image: img62 },
+	{ image: img63 },
+	{ image: img64 },
+	{ image: img65 },
+	{ image: img66 },
+	{ image: img67 },
+	{ image: img68 },
+	{ image: img69 },
+	{ image: img70 },
+	{ image: img71 },
+	{ image: img72 },
+	{ image: img73 },
+	{ image: img74 },
+	{ image: img75 },
+	{ image: img76 },
+	{ image: img77 },
+	{ image: img78 },
+	{ image: img79 },
+	{ image: img80 },
+	{ image: img81 },
+	{ image: img82 },
+	{ image: img83 },
+	{ image: img84 },
+	{ image: img85 },
+	{ image: img86 },
+	{ image: img87 },
+	{ image: img88 },
+	{ image: img89 },
+	{ image: img90 },
+	{ image: img91 },
+	{ image: img92 },
+	{ image: img93 },
+	{ image: img94 },
+	{ image: img95 },
+	{ image: img96 },
+	{ image: img97 },
+	{ image: img98 },
+	{ image: img99 },
+	{ image: img100 },
+	{ image: img101 },
+	{ image: img102 },
 ]

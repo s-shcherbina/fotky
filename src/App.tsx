@@ -16,7 +16,7 @@ function App() {
 					color: 'darkorange',
 				}}
 			>
-				<h2>Happy Birthday!!!</h2>
+				<h1>Happy Birthday!!!</h1>
 			</div>
 			<div
 				style={
@@ -57,9 +57,10 @@ function App() {
 									backgroundImage: `url(${item.image})`,
 									backgroundPosition: 'top center',
 									backgroundRepeat: 'no-repeat',
-									backgroundSize: 'auto !important auto !important',
-									height: '90vh',
-									// width: 'auto !important',
+									backgroundSize: 'auto !important',
+									height: '100vh',
+									width: 'auto !important',
+									// height: 'auto !impotant',
 								}}
 							></div>
 							{/* <Stack
