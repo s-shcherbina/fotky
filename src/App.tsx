@@ -57,7 +57,7 @@ function App() {
 									backgroundImage: `url(${item.image})`,
 									backgroundPosition: 'top center',
 									backgroundRepeat: 'no-repeat',
-									height: '70vh',
+									height: '800px',
 									width: 'auto !important',
 								}}
 							></div>
