@@ -58,7 +58,7 @@ function App() {
 									backgroundPosition: 'top center',
 									backgroundRepeat: 'no-repeat',
 									height: '80vh',
-									width: 'auto !important',
+									// width: 'auto !important',
 								}}
 							></div>
 							{/* <Stack
